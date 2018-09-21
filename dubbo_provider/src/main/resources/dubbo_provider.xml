@@ -17,5 +17,5 @@
     <dubbo:protocol name="dubbo" port="20880" />
 
     <!-- 声明需要暴露的服务接口 -->
-    <dubbo:service interface="com.vens.dubbo.provider.DubboServiceImpl" ref="dubboService" />
+    <dubbo:service interface="com.vens.dubbo.service.DubboService" ref="dubboService" />
 </beans>
